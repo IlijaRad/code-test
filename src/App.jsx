@@ -40,7 +40,7 @@ const App = () => {
       return (
         <Wrapper>
           <IncomeTaxTable
-            totalIncome={totalIncome}
+            totalIncome={totalIncome / 100}
             incomeType={incomeType}
             incomePeriod={incomePeriod}
             setIncomePeriod={setIncomePeriod}
